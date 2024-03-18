@@ -4,8 +4,16 @@ body {
     background-color: #FFFFFF;
 }
 
+h1,h2,h3,h4,h5,h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 ul {
     list-style: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
 }
 
 a {
@@ -26,9 +34,17 @@ button {
     overflow: hidden;
 }
 
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
 
-
-.header {}
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 
 .header-nav {}
 
@@ -95,6 +111,11 @@ button {
     background-color: #2e2f42;
 }
 
+.hero-wrap {
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+
 .hero-title {
     font-weight: 700;
     font-size: 56px;
@@ -102,6 +123,7 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    margin-bottom: 48px;
 }
 
 .hero-order-btn {
@@ -111,6 +133,9 @@ button {
     letter-spacing: 0.04em;
     color: #fff;
     background-color: #4d5ae5;
+    padding: 16px 32px;
+    border-radius: 4px;
+    /* margin-left: 600px; */
 }
 
 .hero-order-btn:hover {
